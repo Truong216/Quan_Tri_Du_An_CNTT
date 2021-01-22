@@ -1,0 +1,353 @@
+.khung1 {
+    width: 1900px;
+    margin: auto;
+    background-color: white;
+}
+
+.khung11 {
+    margin-left: 300px;
+}
+
+.khung11 li {
+    list-style: none;
+}
+
+.khung11 h1 {
+    float: left;
+    list-style: none;
+    font-size: 40px;
+}
+
+.form1 input {
+    margin-top: 37px;
+    margin-left: 35px;
+    width: 500px;
+    height: 28px;
+    float: left;
+    background-color: #EEEEEE;
+    border-color: white;
+}
+
+.form2 input {
+    float: left;
+    margin-top: 34px;
+    width: 70px;
+    height: 35px;
+    background: #009933;
+    border-color: white;
+}
+
+.Image1 img {
+    padding: 4px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-left: 90px;
+    margin-top: 20px;
+    float: left;
+}
+
+.khung12 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 43px;
+}
+
+.khung12 {
+    padding-left: 1400px;
+}
+
+.khung2 {
+    width: 1900px;
+    background-color: #009933;
+    margin: auto;
+    height: 45px;
+}
+
+.khung2 p {
+    transition: all 0.3s
+}
+
+.khung2 p:hover {
+    color: red
+}
+
+.khung2 li {
+    padding-left: 80px;
+    float: left;
+    list-style: none;
+}
+
+.khung2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.khung2 ul {
+    margin-left: 220px;
+}
+
+.khung22 {
+    padding-left: 1037px;
+    padding-top: 15px;
+}
+
+.khung22 li {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+}
+
+table td {
+    padding: 5px 0px 2px 5px;
+}
+
+.ABC {
+    background-color: red;
+    margin-left: 340px;
+    display: inline;
+}
+
+table {
+    margin-left: 340px;
+    height: 460px;
+    width: 280px;
+    float: left;
+}
+
+table span {
+    padding-left: 14px;
+}
+
+.khungMS11 {
+    background-image: url("../BackGround1.pnj.jpg");
+    float: left;
+    margin-left: 1px;
+    width: 935px;
+    height: 460px;
+}
+
+.khungMS12 {
+    background-image: url("./BackGround2.pnj.jpg");
+    float: left;
+    width: 534px;
+    height: 300px
+}
+
+.khungMS13 img {
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.khungMS14 img {
+    position: relative;
+    padding-left: 180px;
+    padding-top: 175px;
+    z-index: 2;
+}
+
+.khung15 img {
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.khung16 img {
+    float: left;
+    position: absolute;
+    z-index: 2;
+    padding-left: 201px;
+}
+
+.khung17 img {
+    position: relative;
+    padding-left: 170px;
+    padding-top: 100px;
+    z-index: 3;
+}
+
+.khungtail {
+    margin-left: 345px;
+    width: 1212px;
+    background-color: #EEEEEE;
+}
+
+.khung62 {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#slide-show li {
+    list-style: none;
+    float: left;
+    margin-left: 8px;
+    padding: 16px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.Truoc {
+    padding-left: 10px;
+}
+
+.Sau {
+    padding-left: 1160px;
+}
+
+.khung7 {
+    margin-left: 345px;
+    width: 900px;
+    height: 520px;
+    float: left;
+}
+
+.khung7 img {
+    padding-top: 20px;
+    padding-left: 30px;
+    float: left;
+}
+
+.khung7 b {
+    padding-left: 10px;
+}
+
+.khung7 p {
+    float: left;
+    padding-left: 20px;
+}
+
+.khungtacgia table {
+    height: 0px;
+    width: 850px;
+    float: left;
+}
+
+.khung8 {
+    margin-left: 1256px;
+    background-color: #EEEEEE;
+}
+
+.khung8 table {
+    border: 1px solid #EEEEEE;
+    height: 300px;
+    background-color: #EEEEEE;
+}
+
+.khung8 td {
+    padding-left: 10px;
+}
+
+.khung9 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 1180px;
+}
+
+.khung9 table {
+    background-color: #EEEEEE;
+}
+
+.khung9 td {
+    padding-left: 10px;
+}
+
+.khung10 {
+    margin-top: 16px;
+    background-color: #2d2355;
+    width: 900px;
+    float: left;
+    height: 340px;
+    margin-left: 345px;
+}
+
+.khung111 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #EEEEEE;
+    width: 303px;
+    height: 342px;
+}
+
+.khung111 img {
+    float: left;
+    padding-left: 10px;
+}
+
+.khung111 li {
+    list-style: none;
+    color: black;
+}
+
+.khung111 a {
+    text-decoration: none;
+}
+
+.khung10 img {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 280px;
+}
+
+.khung10 p {
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+.khung10 p img {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 45px;
+    height: 25px;
+}
+
+.khungend {
+    padding: 20px 0px 25px 200px;
+}
+
+.khungend1 input {
+    width: 200px;
+    height: 30px;
+}
+
+.khungend1 li {
+    float: left;
+    list-style: none;
+    padding-left: 50px;
+    top: 0px;
+}
+
+.khungEnd td {
+    padding-left: 50px;
+}
+
+.khungEnd1 {
+    padding-left: 0px;
+}
+
+.khungEnd1 td {
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+.khungEnd1 table {
+    width: 1280px;
+    height: 200px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
