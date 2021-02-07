@@ -1,0 +1,161 @@
+
+.khung1{
+    width: 1900px;
+    position: fixed;
+    margin: auto;
+    background-color: white;
+    top: 0px;
+}
+.khung121 {
+    margin-top: 110px;
+}
+.khung11{
+    margin-left: 300px;}
+.khung11 li{
+    list-style: none;}
+.khung11 h1{
+    float: left;
+    list-style: none;
+    font-size: 40px;}
+.form1 input{
+    margin-top: 37px;
+    margin-left: 35px;
+	width: 500px;
+	height: 28px;
+    float: left;
+    background-color: #EEEEEE;
+    border-color: white;}
+.form2 input{
+    float: left;
+    margin-top: 34px;
+	width: 70px;
+	height: 35px;
+    background: #009933;
+    border-color: white;}
+.Image1 img{
+    padding: 4px;
+    border-radius: 50%;
+    border: 2px solid green ;
+    margin-left: 90px;
+    margin-top: 20px;
+    float: left;}
+.khung12 a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 43px;}
+.khung12 {
+    padding-left: 1400px;}
+
+.khung2{
+    width: 1900px;
+    background-color: #009933;
+    margin: auto;
+    height: 45px;}
+.khung2 p{transition: all 0.3s}
+.khung2 p:hover{color:red}
+    
+.khung2 li{
+        padding-left:80px;
+        float: left;
+        list-style: none;}
+.khung2 a{
+    text-decoration: none;
+    color: white;}
+.khung2 ul{
+    margin-left: 220px;}
+.khung22{
+    padding-left: 1037px;
+    padding-top: 15px;}
+.khung22 li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;}
+
+
+table a{
+    text-decoration: none;
+    color: black;
+}
+
+table td{
+    padding: 5px 0px 2px 5px;
+}
+
+.ABC{
+    background-color: red;
+    margin-left: 340px;
+    display: inline;
+  
+}
+
+ table{
+    margin-left: 340px;
+    height: 460px;
+    width: 280px;
+    float: left;
+}
+table span{
+    padding-left: 14px;
+}
+.khungMS11{
+    float: left;
+    background-color: #Dddddd;
+}  
+.khungMS11 td{
+    width: 100px;
+}
+.khungMS11 p{
+    text-align: left;
+    padding-left: 15px;
+}
+ .khungMS11 table{
+    float: left;
+    margin-left: 10px;
+    width: 930px;
+    font-size: 17px;
+    text-align: center;
+}
+.khungMS11 tr{
+    background-color: white;
+}
+
+.khungend{
+    padding: 20px 0px 25px 200px;
+
+}
+.khungend1 input{
+    width: 200px;
+    height: 30px;
+}
+.khungend1 li{
+    float: left;
+    list-style: none;
+    padding-left: 50px;
+}
+
+.khungEnd td{
+    padding-left: 50px;
+}
+
+.khungEnd1{
+    padding-left: 0px;
+}
+.khungEnd1 td{
+    padding-left: 0px;
+    font-size: 15px;
+}
+.khungEnd1 table{
+    width: 1280px;
+    height: 200px;
+}
+
+
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
