@@ -25,7 +25,7 @@
 }
 
 .form1 input {
-    margin-top: 37px;
+    margin-top: 36px;
     margin-left: 35px;
     width: 500px;
     height: 28px;
@@ -65,7 +65,7 @@
 }
 
 .khung2 {
-    width: 1900px;
+    width: 1885px;
     background-color: #009933;
     margin: auto;
     height: 45px;
@@ -106,44 +106,49 @@
     padding-left: 10px;
 }
 
-table a {
+.ABX {
+    background-image: url("../background.jpg");
+    width: 1885px;
+    height: 600px;
+    padding-top: 70px;
+    margin: auto;
+}
+
+.DangNhap table {
+    background-color: #f3f3f3;
+    width: 350px;
+    height: 30px;
+    font-size: 19px;
+    margin: auto;
+}
+
+.DangNhap input {
+    border: 0.1px solid #3399FF;
+}
+
+.DangNhap b {
+    padding-right: 133px;
+}
+
+span a {
     text-decoration: none;
-    color: black;
+    color: #3399FF;
 }
 
-table td {
-    padding: 5px 0px 2px 5px;
+.DangNhap hr {
+    width: 320px;
+    margin-top: 30px;
 }
 
-.ABC {
-    background-color: red;
-    margin-left: 340px;
-    display: inline;
-}
-
-table {
-    margin-left: 340px;
-    height: 460px;
-    width: 280px;
+.BieuTuong li {
+    list-style: none;
     float: left;
+    padding-left: 10px;
 }
 
-table span {
-    padding-left: 14px;
-}
-
-.khungMS11 {
-    width: 945px;
+.BieuTuong {
     float: left;
-    background-color: #EEEEEE;
-}
-
-.khungMS11 h2 {
-    margin-left: 200px;
-}
-
-.khungMS11 h1 {
-    margin-left: 100px;
+    padding-left: 0px;
 }
 
 .khungend {
@@ -159,6 +164,7 @@ table span {
     float: left;
     list-style: none;
     padding-left: 50px;
+    top: 0px;
 }
 
 .khungEnd td {
@@ -177,6 +183,7 @@ table span {
 .khungEnd1 table {
     width: 1280px;
     height: 200px;
+    padding-left: 150px;
 }
 
 .clearfix::after {

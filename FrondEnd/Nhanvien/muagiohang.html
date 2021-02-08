@@ -4,14 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hướng Dẫn</title>
-    <link rel="stylesheet" href="HướngDẫn.css">
+    <title>Nhập Số Lượng</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <link rel="stylesheet" href="ThemGio.css">
+    <script type="text/javascript" src="js/muahang.js"></script>
 </head>
 
 <body>
+    <!-- <form action="../dangnhap/dn.php" method="post">
+        <span>
+            <p>Username: <input type="text" name="username"></p> <br>
+            <p>Password: <input type="password" name="password"></p> <br>
+        </span>
+        <!-- <input name="login" type="submit" value="Đăng Nhập" /><br> -->
+    </form> -->
+ 
     <div class="khung1">
         <ul class="khung11">
             <li>
@@ -29,108 +36,99 @@
             <input type="button" value="Tìm sách">
         </div>
         <div class="Image1">
-            <a href="https://www.vforum.vn/diendan/showthread.php?61619-Bang-ma-mau-HEX-RGB-CMYK-day-du-cho-CSS-HTML"><img
-                    width="50" height="50" src="https://cdn.pixabay.com/photo/2015/10/22/16/42/icon-1001596_960_720.png"
-                    alt=""></a>
-
+            <a href=""><img src=""
+                    style="width: 60px; height:60px;"></a>
         </div>
-        <div class="khung12">
-            <a href="../dangnhap.php">Đăng nhập</a>
-            <a href="../dangki/dangky.php">| Đăng Ký</a>
-        </div>
+        <!-- <div class="khung12">
+            <a href="">Chào Bạn <a href="../dangnhap/logout.php"> | Thoát</a></a>
+        </div> -->
     </div>
     <div class="clearfix"></div>
 
     <div class="khung121">
         <div class="khug"></div>
-        <div class="khung2">
-            <ul>
-                <li><a href="../index.php">
-                        <p><strong>TRANG CHỦ</strong></p>
-                    </a></li>
-                <li><a href="../GiớiThiệu/GiớiThiệu.php">
-                        <p><strong>GIỚI THIỆU</strong></p>
-                    </a></li>
-                <li><a href="TinMới.html">
-                        <p><strong>TIN MỚI</strong></p>
-                    </a></li>
-                <li><a href="">
-                        <p><strong>HƯỚNG DẪN</strong></p>
-                    </a></li>
-                <li><a href="../dangnhap.php">
-                        <p><strong>TÀI KHOẢN</strong></p>
-                    </a></li>
-            </ul>
-            <ul class="khung22" style="color: white;">
-                <li><i class="fa fa-phone"> Hotline: 1234 5678 | </i></li>
-                <li><a
-                        href="https://www.vforum.vn/diendan/showthread.php?61619-Bang-ma-mau-HEX-RGB-CMYK-day-du-cho-CSS-HTML"><i
-                            class="fa fa-comment"></i> Hỗ trợ trực tuyến</a></li>
-            </ul>
+        <div class="khung2" style="height:60px;">
+            <h1 style="text-align:center;color:white;">Nhân Viên <a href="" style="color:red;"> <a href=""><img width="50" height="50"
+                        src="https://cdn.pixabay.com/photo/2015/10/22/16/42/icon-1001596_960_720.png" alt=""></a></a></h1>
+                
         </div>
     </div>
     <div class="clefix"></div>
+    </div>
 
-    <div class="ABC">
-    <table>
-                <tr>
-                    <td>
-                        <i class="fa fa-align-left"></i>
-                        <span><a href="" style="font-size: 20px;"><b>Danh Mục Sách</b></a></span>
-                        <span><i class="fa fa-angle-down"></i></span>
-                    </td>
+    <div class="ABX">
+        <div class="DangNhap">
+            <table border="1" style="width:500px;background-color:white;text-align:center;">
+                <tr style="color:#003333;background-color:#99CCCC;">
+                    <th>Tên SP</th>
+                    <th>Giá</th>
+                    <th>Số Lượng</th>
+                    <th>Thành Tiền</th>
                 </tr>
-                    <?php 
-	                    include "../connect.php";
-	                    $select = "select * from wp_danhmuc";
-                        $query = mysqli_query($link,$select);  
-                    ?>
-                        <?php
-		                    while($bien = mysqli_fetch_array($query)){
-	                    ?>
-                            <tr>
-                                <td><a href=""><?php echo $bien['tendm']; ?><span style="padding-right: 20px;"><img width="20" height="15"
-                                    src="https://cdn1.iconfinder.com/data/icons/interface-59/24/arrow-righ-forward-next-action-chevron-3-512.png"></span></a>
-                                </td>
-                            </tr>
-                    <?php 
-                        }
-                    ?>
+        
+                <tr style="background-color:#CCCCCC;color:#3366FF;font-size:25px;text-align: center;">
+                    <td colspan="2" style="">Tổng số : </td>
+                    <td></td>
+                    <td></td>
             </table>
+            <div>
+                <h2 style="color: red;  text-align:center;">Nhập Thông Tin Khách Hàng</h2>
+            </div>
 
-        <div class="khungMS11">
-            <h2>
-                <p style="color:green"> Hướng Dẫn Đặt Sách Qua Website mâybook !</p>
-            </h2>
-            <ol>
-                <h3>
-                    <li>
-                        Đăng nhập vào tài khoản<br> Quý khách vui lòng đăng nhập bằng tài khoản đã có ở mâybook hoặc
-                        đăng nhập thông qua Facebook/zalo/google.
-                        Trong trường hợp chưa đăng ký tài khoản , quý khách có thể chọn mục " Tài Khoản " để đăng ký tài
-                        khoản mới.
-                    </li>
-                    <li>Tìm Sách Cần Mua<br>Quý khách có thể tìm theo 3 cách :<br>+ Gõ tên sách vào thanh tìm kiếm.<br>+
-                        Tìm theo danh mục.<br>+ Tìm theo sản phẩm mới nhất.</li>
-                    <li> Thêm sản phẩm vào giỏ hàng<br>+Kiểm tra thông tin sách.<br>+Chọn số lượng cần.<br>+Thêm vào giỏ
-                        hàng.</li>
-                    <li>Kiểm tra giỏ hàng và đặt hàng<br>+Điều chỉnh số lượng và cập nhật.<br>+Bấm "Tiến hành đặt hàng"
-                        để bắt đầu đặt sách.</li>
-                    <li>Chọn địa chỉ giao hàng</li>
-                    <li> Chọn phương thức thanh toán<br>Khách hàng có thể chọn thanh toán trực tuyến trên Website qua
-                        nhiều thẻ được hỗ trợ hoặc có thể thanh toán sau khi giao sách.</li>
-                    <li> Kiểm tra và xác nhận đơn hàng<br>Sau khi hoàn tất đặt mua , hệ thống sẽ gửi đến cho khách hàng
-                        1 mã đơn .Sau khi quý khách nhận được thì vui lòng bấm xác nhận qua email mà đã đăng ký thông
-                        tin.</li>
-                    <li> Theo dõi tình trạng đơn hàng<br>Sau khi đặt sách thành công , quý khách có thể theo dõi tiến
-                        trình giao hàng qua email .</li>
-                </h3>
-            </ol>
-            <h1><i>
-                    <ol style="color:red"> Chúc quý khách đặt sách thành công ! Thân ái.</ol>
-                </i></h1>
+            <form method="post" name="frm" onsubmit=" return nhapthongtin()" action="">
+                <table border="1" style="width:500px;margin-top:20px;background-color:white">
+                    <tr>
+                        <td style="width:300px;background-color:#99CCCC;font-weight:bold;padding-left:10px;">Họ Và Tên*
+                            : </td>
+                        <td><input type="text" name="hoten" size="40" placeholder="Mời nhập Họ Tên"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#99CCCC;font-weight:bold;padding-left:10px;">Điện Thoại* : </td>
+                        <td><input type="text" name="dienthoai" size="40" placeholder="Mời nhập Số Điện Thoại"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#99CCCC;font-weight:bold;padding-left:10px;">Email* : </td>
+                        <td><input type="text" name="email" size="40" placeholder="Mời nhập Email"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#99CCCC;font-weight:bold;padding-left:10px;">Điạ Chỉ* : </td>
+                        <td><input type="text" name="diachi" size="40" placeholder="Mời nhập Số Địa Chỉ"></td>
+                    </tr>
+                    <tr style="background-color:#99CCCC;">
+                        <td colspan="2"><input
+                                style="border:white;margin :2px 0px 2px 200px;color:white;font-weight:bold;background-color:#009900;font-size:17px;"
+                                type="submit" name="submit" value="Đặt Hàng"></td>
+                    </tr>
+                </table>
+            </form>
+
+            <script language="javascript">
+            function nhapthongtin() {
+                if (frm.hoten.value == "") {
+                    alert("Bạn chưa nhập họ tên. Vui lòng kiểm tra lại");
+                    return false;
+                }
+                if (frm.dienthoai.value == "") {
+                    alert("Bạn chưa nhập số điện thoại. Vui lòng kiểm tra lại");
+                    frm.dienthoai.focus();
+                    return false;
+                }
+                if (frm.email.value == "") {
+                    alert("Bạn chưa nhập email. Vui lòng kiểm tra lại");
+                    frm.email.focus();
+                    return false;
+                }
+                if (frm.diachi.value == "") {
+                    alert("Bạn chưa nhập địa chỉ . Vui lòng kiểm tra lại");
+                    frm.diachi.focus();
+                    return false;
+                }
+            }
+            </script>
         </div>
-        <div class="clearfix"></div>
+    </div>
+
+    <div class="clearfix"></div>
     </div>
     <br>
     <div class="khungend" style="background-color: #006633;">
@@ -164,9 +162,8 @@
         <div class="clearfix"></div>
     </div>
     </div>
-
     <div class="khungEnd">
-        <table style="margin-left: 285px; font-weight: 100; font-size: 14px; width: 1300px; height: 100px;">
+        <table style="margin-left: 300px; font-weight: 100; font-size: 14px; width: 1300px; background-color: white;">
             <br>
             <tr>
                 <td><b>HỖ TRỢ KHÁCH HÀNG</b></td>
@@ -244,8 +241,8 @@
         <div class="clearfix"></div>
         <br>
         <div class="khungEnd1">
-            <p><b style="padding-left: 335px;">THƯỜNG ĐƯỢC TÌM KIẾM</b></p>
-            <table>
+            <p><b style="padding-left: 350px;">THƯỜNG ĐƯỢC TÌM KIẾM</b></p>
+            <table style="background-color: white;margin-left:200px;">
                 <tr>
                     <td>tryện dan brown</td>
                     <td>sách warren buffelt</td>
@@ -298,7 +295,6 @@
     </div>
     </div>
     </div>
-
 </body>
 
 </html>
