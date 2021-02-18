@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Khohang</title>
+</head>
+
+<body onLoad="window.print()">
+    <div class="infor">
+        <form action="" method="post">
+            <br>
+            <table width="150" style="margin: auto;">
+                <tr>
+                    <td><input style="width:190px;margin-left:45px;" type="text" name="keyword"></td>
+
+                    <td><input style="color:red; font-size:16px;" type="submit" name="Search" value="Tìm Sách"></td>
+                    <td><input style="color:red; font-size:16px;" type="submit" name="Sapxep" value="Số Lượng ^"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="width:190px;height:30px;"><a style="color:green;" href="admin.php?Quanly=SanPhamTam">Cập Nhật Sản Phẩm</a></button></td>
+                    <td><button style="width:100px;height:30px;"><a style="color:green;" href="admin.php?Quanly=NhapMoi">Nhập Mới</a></button></td>
+                </tr>
+            </table>
+        </form>
+        <table width="900" border="1px solid #f3f3f3;" align="center" style="margin-top: 10px; text-align: center;">
+            <tr style="color:#003333;background-color:#99CCCC;">
+                <th width="50px;">ID</th>
+                <th width="50px;">Tên SP</th>
+                <th width="50px;">Mã Vạch</th>
+                <th width="50px;">Hình Ảnh</th>
+                <th width="100px;">Giá</th>
+                <th width="200px;">Số Lượng Tồn </th>
+                <th width="200px;">Thành Tiền</th>
+                <th width="200px;">Active</th>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+                <td> <img style="max-width: 100px" src="../images/<?php echo $bien['hinhanh']; ?>"></td>
+                <td style="height:10px;">
+
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+                <td><a style="color:#0033FF;" href="admin.php?Quanly=Nhapthem&idsp=<?php echo $bien['id']; ?>">Nhập Thêm</a>
+                </td>
+            </tr>
+
+        </table>
+        <button><a style="color:red;" href="admin.php">Thoát</a></button>
+    </div>
+</body>
+
+</html>

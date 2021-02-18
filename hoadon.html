@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoadon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="infor">
+        <table width="900" border="1px solid #f3f3f3;" align="center" style="margin-top: 10px; text-align: center;">
+            <tr style="color:#003333;background-color:#99CCCC;">
+                <th width="50px;">Mã HĐ</th>
+                <th width="50px;">ID Người Dùng</th>
+                <th width="50px;">Họ Tên</th>
+                <th width="200px;">Địa Chỉ</th>
+                <th width="100px;">Điện Thoại</th>
+                <th width="200px;">Email</th>
+                <th width="200px;">Ngày Đặt</th>
+                <th width="200px;"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><a style="color:green;" href="admin.php?Quanly=cthoadon&hoten=<?php echo $bien['hoten']; ?>">Chi
+                    Tiết</a>
+                    <a style="color:green;" href="inhd.php?hoten=<?php echo $bien['hoten']; ?>">In Hóa Đơn</a>
+                    <a style="color:red;" onclick="return window.confirm('Bạn muốn xóa không');" href="admin.php?Quanly=XoaHD&mahd=<?php echo $bien['mahd']; ?>">Xóa</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
