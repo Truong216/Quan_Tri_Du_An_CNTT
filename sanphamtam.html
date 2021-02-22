@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanphamtam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="infor">
+        <form action="" method="post">
+            <br>
+            <table width="150" style="margin: auto;">
+                <tr>
+
+                    <td><input type="text" name="keyword"></td>
+                    <td><input style="color:red; font-size:16px;" type="submit" name="Search" value="Tìm Sách"></td>
+                </tr>
+                <tr>
+                    <td colspan=2 style="padding-left:17px;">
+                        <b style="color: blue;font-size:18px;">Số Lượng Sách :</b>
+                        <b style="color: red;font-size:20px;"></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input style="color:#009933; font-size:20px;margin-left:60px;margin-top:20px;" type="submit" name="process" value="Cập Nhật Lại "></td>
+                </tr>
+            </table>
+        </form>
+        <table width="900" border="1px solid #f3f3f3;" align="center" style="margin-top: 10px; text-align: center;">
+            <tr style="color:#003333;background-color:#99CCCC;">
+                <th width="50px;">IDSP</th>
+                <th width="50px;">Tên SP</th>
+                <th width="50px;">Mã Vạch</th>
+                <th width="50px;">Hình Ảnh</th>
+                <th width="200px;">Chi Tiết</th>
+                <th width="100px;">Giá Nhập</th>
+                <th width="100px;">Giá Bán</th>
+                <th width="200px;">Danh mục</th>
+                <th width="200px;">Ngày đăng</th>
+                <th width="200px;">Active</th>
+            </tr>
+            <tr>
+                <td> </td>
+                <td></td>
+                <td> </td>
+                <td> <img style="max-width: 100px" src="../images/<?php echo $bien['hinhanh']; ?>"></td>
+                <td style="height:10px;"></td>
+                <td style="color:red;"></td>
+                <td> </td>
+                <td></td>
+                <td> </td>
+                <td>
+                    <a style="color:#0033FF;" href="admin.php?Quanly=SuaSPtam&id=<?php echo $bien['idsp']; ?>">Sửa</a>
+                    <a style="color:red;" onclick="return window.confirm('Bạn muốn xóa không');" href="admin.php?Quanly=XoaSP&id=<?php echo $bien['idsp']; ?>">Xóa</a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>

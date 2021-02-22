@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taikhoan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="infor">
+        <table width="900" border="1px solid #f3f3f3;" align="center" style="margin-top: 10px; text-align: center;">
+            <tr style="color:#000033;background-color:#99CCCC;">
+                <th width="50px;">ID Người Dùng</th>
+                <th width="50px;">Hình Ảnh</th>
+                <th width="50px;">Tên Người Dùng</th>
+                <th width="200px;">Tên Đăng Nhập</th>
+                <th width="10px;">Mật Khẩu</th>
+                <th width="200px;">Giới Tính</th>
+                <th width="200px;">Email</th>
+                <th width="200px;">Điện Thoại</th>
+                <th width="200px;">Địa Chỉ</th>
+                <th width="200px;">Ngày ĐK</th>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> <img style="width: 80px; height:80px;" src="../images/<?php echo $bien['hinhanh']; ?>"></td>
+                <td style="height:10px;">
+                    <?php echo $bien['user']; ?</td>
+            <td></td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td></td>
+            <td> </td>
+        </tr>
+    </table>
+    <button><a style="color:red;" href="admin.php">Thoát</a></button>
+</div>
+</body>
+</html>
